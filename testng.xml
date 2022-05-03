@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LearnPOMSuite">
+  <test thread-count="5" name="LoginTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      
+      <class name="com.tests.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTest  <class name="com.tests.BaseTest"/>
+      <class name="com.tests.ProductsPageTest"/> -->
+</suite> <!-- LearnPOMSuite -->

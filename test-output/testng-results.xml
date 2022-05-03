@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-03T06:32:43Z" name="LearnPOMSuite" finished-at="2022-05-03T06:32:51Z" duration-ms="8030">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T06:32:43Z" name="LoginTest" finished-at="2022-05-03T06:32:51Z" duration-ms="8030">
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:43Z" name="setUpTest" finished-at="2022-05-03T12:02:46Z" duration-ms="3507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:46Z" name="verifyLoginPageTitle" finished-at="2022-05-03T12:02:46Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:46Z" name="tearDown" finished-at="2022-05-03T12:02:47Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:47Z" name="setUpTest" finished-at="2022-05-03T12:02:48Z" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLogin_AuthorizedUser()[pri:2, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:48Z" name="verifyLogin_AuthorizedUser" finished-at="2022-05-03T12:02:49Z" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_AuthorizedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:49Z" name="tearDown" finished-at="2022-05-03T12:02:49Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:49Z" name="setUpTest" finished-at="2022-05-03T12:02:51Z" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLogin_UnAuthorizedUser()[pri:3, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:51Z" name="verifyLogin_UnAuthorizedUser" finished-at="2022-05-03T12:02:51Z" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_UnAuthorizedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@2931522b]" started-at="2022-05-03T12:02:51Z" name="tearDown" finished-at="2022-05-03T12:02:51Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- LearnPOMSuite -->
+</testng-results>
